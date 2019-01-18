@@ -3,9 +3,8 @@ import java.util.Random;
 
 public class Enemy {
     int face;
-    public Enemy(){
+    public Enemy() {
         Random rand = new Random();
         face = rand.nextInt(4);
     }
 }
-
