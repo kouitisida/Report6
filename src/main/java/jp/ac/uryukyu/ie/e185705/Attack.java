@@ -10,10 +10,7 @@ public class Attack {
             Scanner scan = new Scanner(System.in);
             finger = scan.next();
             new Number_face(finger);
-            System.out.println(Number_face.num);
             finger_num = Number_face.num;
-
         }
-
     }
 }
