@@ -7,6 +7,6 @@ public class Enemy {
         Random rand = new Random();
         face = rand.nextInt(4);
         new Japanese(face);
-        System.out.println("相手の顔の向き：" + Japanese.japan);
+        System.out.println("相手の顔の向き：" + Japanese.japan_face);
     }
 }

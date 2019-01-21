@@ -6,7 +6,7 @@ public class Main {
         System.out.println("せーのっ！　あっち向いてー ホイ！！！");
         Attack attack = new Attack();
         Japanese japanese = new Japanese(attack.finger_num);
-        System.out.println("あなたの指の向き：" + japanese.japan);
+        System.out.println("あなたの指の向き：" + japanese.japan_face);
         Enemy enemy = new Enemy();
         Judge judge = new Judge(attack.finger_num,enemy.face);
     }
