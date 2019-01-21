@@ -8,10 +8,17 @@ class AttackTest {
 
     @Test
     void number_face(){
+
         Attack attack = new Attack();
         String[] sample = {"up","under","right","left","hoge","aho"};
-        for(String samples :sample){
-            attack.number_face(samples);
+        for(int i = 0; i < 4;i++ ){
+            attack.number_face(sample[i]);
+            System.out.println(attack.num);
+            assertEquals(i,attack.num);
         }
+        for(int i = 4; i < 5; i++){
+            attack.number_face(sample[i]);
+        }
+
     }
 }
