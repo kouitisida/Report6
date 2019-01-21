@@ -16,7 +16,7 @@ class AttackTest {
             System.out.println(attack.num);
             assertEquals(i,attack.num);
         }
-        for(int i = 4; i < 5; i++){
+        for(int i = 4; i < 6; i++){
             attack.number_face(sample[i]);
         }
 
