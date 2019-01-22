@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"Attack","h":"","u":""},{"l":"Enemy","h":"","u":""},{"l":"Japanese","h":"","u":""},{"l":"Judge","h":"","u":""},{"l":"Main","h":"","u":""}]

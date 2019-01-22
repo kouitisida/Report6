@@ -8,6 +8,7 @@ public class Main {
             attack.scaning();
             attack.number_face(attack.finger);
         }
+
         Japanese japanese = new Japanese(attack.num);
         System.out.println("あなたの指の向き：" + japanese.japan_face + attack.emoticon(attack.num));
         Enemy enemy = new Enemy();
